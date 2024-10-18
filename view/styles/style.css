@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, rgb(121, 25, 25), rgb(10, 10, 196));
+}
+
+.header{
+    background-color: rgb(143, 88, 15);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.menu-item{
+    font-size: 20px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 5px;
+    transition: all 0.2s ease-in;
+}
+
+.menu-item-atual{
+    font-size: 20px;
+    color: rgb(121, 25, 25);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 5px;
+    transition: all 0.2s ease-in;
+}
+
+.menu-item:hover{
+    color: rgb(231, 219, 219);
+}
